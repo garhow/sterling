@@ -1,0 +1,11 @@
+[package]
+name = "libstenograph"
+author = "Garrett Howard <garrett@mersh.com>"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12.12", features = ["blocking"] }
+vosk = "0.3.1"
+xdg = "2.5.2"
+zip = "2.2.2"
