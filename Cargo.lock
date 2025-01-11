@@ -760,16 +760,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b5aba8db14291edd000dfcc4d620c7ebfb122c613afb886ca8803fa4e128a20a"
 
 [[package]]
-name = "libstenograph"
-version = "0.1.0"
-dependencies = [
- "reqwest",
- "vosk",
- "xdg",
- "zip",
-]
-
-[[package]]
 name = "linux-raw-sys"
 version = "0.4.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1676,6 +1666,16 @@ checksum = "04dd7223427d52553d3702c004d3b2fe07c148165faa56313cb00211e31c12bc"
 dependencies = [
  "js-sys",
  "wasm-bindgen",
+]
+
+[[package]]
+name = "wichita"
+version = "0.1.0"
+dependencies = [
+ "reqwest",
+ "vosk",
+ "xdg",
+ "zip",
 ]
 
 [[package]]

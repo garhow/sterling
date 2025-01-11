@@ -1,5 +1,5 @@
 [package]
-name = "libstenograph"
+name = "wichita"
 author = "Garrett Howard <garrett@mersh.com>"
 version = "0.1.0"
 edition = "2021"
